@@ -15,5 +15,7 @@ namespace hackathon.Models
         public int Places { get; set; }
         public string WorkingHours { get; set; }
         public int? Prywatna { get; set; }
+        public string maps { get; set; }
+        public string desc { get; set; }
     }
 }
