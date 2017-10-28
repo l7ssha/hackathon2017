@@ -30,7 +30,7 @@ namespace hackathon.Controllers
 
             if(vm.Rodzaj == "Przedszkole")
             {
-                if(vm.Typ == "Publiczna" || vm.Rodzaj == "Prywatna")
+                if(int.Parse(vm.Typ) != 3)
                 {
                     var result = _db.Przedszkola.Where(x => x.prywatna == int.Parse(vm.Typ)).ToList();
                     return View(nameof(SearchResult), result);
@@ -43,27 +43,27 @@ namespace hackathon.Controllers
             }
             else if(vm.Rodzaj == "Podstawowa")
             {
-                if(vm.Typ == "Publiczna" || vm.Rodzaj == "Prywatna")
+                if(int.Parse(vm.Typ) != 3)
                 {
                     var result = _db.SzkolyPodstawowe.Where(x=> x.prywatna == int.Parse(vm.Typ)).ToList();
                     return View(nameof(SearchResult), result);
                 }
                 else
                 {
-                    var result = _db.Przedszkola.ToList();
+                    var result = _db.SzkolyPodstawowe.ToList();
                     return View(nameof(SearchResult), result);
                 }
             }
             else if(vm.Rodzaj == "Srednia")
             {
-                if(vm.Typ == "Publiczna" || vm.Rodzaj == "Prywatna")
+                if(int.Parse(vm.Typ) != 3)
                 {
-                    var result = _db.SzkolyPodstawowe.Where(x=> x.prywatna == int.Parse(vm.Typ)).ToList();
+                    var result = _db.SzkolySrednie.Where(x=> x.prywatna == int.Parse(vm.Typ)).ToList();
                     return View(nameof(SearchResult), result);
                 }
                 else
                 {
-                    var result = _db.Przedszkola.ToList();
+                    var result = _db.SzkolySrednie.ToList();
                     return View(nameof(SearchResult), result);
                 }
             }
