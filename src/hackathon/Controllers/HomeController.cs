@@ -26,7 +26,48 @@ namespace hackathon.Controllers
         [HttpPost]
         public IActionResult Search(SearchViewModel vm)
         {
-            return View();
+            //dynamic result = null;
+
+            if(vm.Rodzaj == "Przedszkole")
+            {
+                if(vm.Typ == "Publiczna" || vm.Rodzaj == "Prywatna")
+                {
+                    var result = _db.Przedszkola.Where(x=> x.Prywatna == int.Parse(vm.Typ)).ToList();
+                     return RedirectToAction("SearchResult", result);
+                }
+                else
+                {
+                    var result = _db.Przedszkola.ToList();
+                    return RedirectToAction("SearchResult", result);
+                }
+            }
+            else if(vm.Rodzaj == "Podstawowa")
+            {
+                if(vm.Typ == "Publiczna" || vm.Rodzaj == "Prywatna")
+                {
+                    var result = _db.SzkolyPodstawowe.Where(x=> x.prywatna == int.Parse(vm.Typ)).ToList();
+                     return RedirectToAction("SearchResult", result);
+                }
+                else
+                {
+                    var result = _db.Przedszkola.ToList();
+                     return RedirectToAction("SearchResult", result);
+                }
+            }
+            else if(vm.Rodzaj == "Srednia")
+            {
+                if(vm.Typ == "Publiczna" || vm.Rodzaj == "Prywatna")
+                {
+                    var result = _db.SzkolyPodstawowe.Where(x=> x.prywatna == int.Parse(vm.Typ)).ToList();
+                     return RedirectToAction("SearchResult", result);
+                }
+                else
+                {
+                    var result = _db.Przedszkola.ToList();
+                     return RedirectToAction("SearchResult", result);
+                }
+            }
+            else return RedirectToAction("Search");
         }
 
         public IActionResult Ranking()
