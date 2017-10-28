@@ -20,7 +20,6 @@ namespace hackathon
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<SzkolyNysaContext>(options =>
@@ -29,7 +28,6 @@ namespace hackathon
             services.AddMvc();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
@@ -51,7 +49,8 @@ namespace hackathon
                 
                 routes.MapRoute(
                     name: "about",
-                    template: "{controller=Home}/{action=About}");
+                    template: "onas",
+                    defaults: new { controller = "Home", action = "About" });
             });
         }
     }

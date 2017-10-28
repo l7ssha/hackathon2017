@@ -23,11 +23,35 @@ namespace hackathon.Controllers
             return View();
         }
 
+        public IActionResult Przedszkola()
+        {
+            var data = _db.Przedszkola.ToList();
+
+            return View(dane);
+        }
+
+        public IActionResult Przedszkole(int i)
+        {
+            var przedsz = _db.Przedszkola.Single(x => x.Id == i);
+            return View(przedsz);
+        }
+
+        public IActionResult SzkolySrednie()
+        {
+            var data = _db.SzkolySrednie.ToList();
+            return View(data);
+        }
+
+        public IActionResult SzkolyPodstawowe() 
+        {
+            var data = _db.SzkolyPodstawowe.ToList();
+            return View(data);
+        }
+
+        [HttpGet]
         public IActionResult About()
         {
-            var szkoly = _db.SzkolyPodstawowe.FirstOrDefault();
-
-            return View(szkoly);
+            return View();
         }
 
         public IActionResult Contact()
