@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using hackathon.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace hackathon
 {
@@ -21,6 +23,9 @@ namespace hackathon
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<SzkolyNysaContext>(options =>
+                    options.UseSqlite("Data Source=Szkoly.db"));
+                    
             services.AddMvc();
         }
 
@@ -31,10 +36,10 @@ namespace hackathon
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
+            //else
+            //{
+            //    app.UseExceptionHandler("/Home/Error");
+            //}
 
             app.UseStaticFiles();
 
@@ -43,6 +48,10 @@ namespace hackathon
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+                
+                routes.MapRoute(
+                    name: "about",
+                    template: "{controller=Home}/{action=About}");
             });
         }
     }
