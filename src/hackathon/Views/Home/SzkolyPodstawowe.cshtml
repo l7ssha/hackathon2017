@@ -12,7 +12,7 @@
     <tbody>
         @foreach(var item in Model)
         {
-          <tr>
+         <tr class="clickable-row" style="cursor:pointer;" data-href='/podstawowa/@item.Id'>
           <th scope="row">@item.Id</th>
           <td>@item.Name</td>
           <td>@item.Address</td>
@@ -22,3 +22,14 @@
     </tbody>
   </table>
 </div>
+
+@section Scripts
+{
+  <script>
+      jQuery(document).ready(function($) {
+        $(".clickable-row").click(function() {
+            window.location = $(this).data("href");
+        });
+    });
+  </script>
+}

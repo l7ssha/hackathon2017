@@ -35,12 +35,6 @@ namespace hackathon.Controllers
             return View(data);
         }
 
-        public IActionResult Przedszkole(int i)
-        {
-            var przedsz = _db.Przedszkola.Single(x => x.Id == i);
-            return View(przedsz);
-        }
-
         public IActionResult SzkolySrednie()
         {
             var data = _db.SzkolySrednie.ToList();
@@ -51,7 +45,26 @@ namespace hackathon.Controllers
         {
             var data = _db.SzkolyPodstawowe.ToList();
             return View(data);
-    }
+        }
+
+
+        public IActionResult Przedszkole(int i)
+        {
+            var przedsz = _db.Przedszkola.Single(x => x.Id == i);
+            return View(przedsz);
+        }
+
+        public IActionResult SzkolaSrednia(int i)
+        {
+            var przedsz = _db.SzkolySrednie.Single(x => x.Id == i);
+            return View(przedsz);
+        }
+
+        public IActionResult SzkolaPodstawowa(int i)
+        {
+            var przedsz = _db.SzkolyPodstawowe.Single(x => x.Id == i);
+            return View(przedsz);
+        }
 
         public IActionResult About()
         {
@@ -60,8 +73,6 @@ namespace hackathon.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
     }

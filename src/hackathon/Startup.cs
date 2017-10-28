@@ -63,6 +63,21 @@ namespace hackathon
                     defaults: new { controller = "Home", action = "Przedszkole" });
 
                 routes.MapRoute(
+                    name: "podstawowa",
+                    template: "podstawowa/{i}",
+                    defaults: new { controller = "Home", action = "SzkolaPodstawowa" });
+
+                routes.MapRoute(
+                    name: "srednia",
+                    template: "srednia/{i}",
+                    defaults: new { controller = "Home", action = "SzkolaSrednia" });
+
+                routes.MapRoute(
+                    name: "podstawowe",
+                    template: "podstawowe",
+                    defaults: new { controller = "Home", action = "SzkolyPodstawowe" });
+
+                routes.MapRoute(
                     name: "przedszkola",
                     template: "przedszkola",
                     defaults: new { controller = "Home", action = "Przedszkola" });
@@ -71,6 +86,7 @@ namespace hackathon
                     name: "srednie",
                     template: "srednie",
                     defaults: new { controller = "Home", action = "SzkolySrednie" });
+
             });
         }
     }
