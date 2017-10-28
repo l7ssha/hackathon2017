@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using hackathon.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace hackathon.Controllers
 {
@@ -31,7 +26,6 @@ namespace hackathon.Controllers
         public IActionResult Przedszkola()
         {
             var data = _db.Przedszkola.ToList();
-
             return View(data);
         }
 
@@ -46,7 +40,6 @@ namespace hackathon.Controllers
             var data = _db.SzkolyPodstawowe.ToList();
             return View(data);
         }
-
 
         public IActionResult Przedszkole(int i)
         {
