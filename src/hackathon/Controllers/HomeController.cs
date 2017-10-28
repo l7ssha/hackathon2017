@@ -70,6 +70,11 @@ namespace hackathon.Controllers
             else return RedirectToAction("Search");
         }
 
+        public IActionResult SearchResult(IModel result)
+        {
+            return View(result);
+        }
+
         public IActionResult Ranking()
         {
             return View();
