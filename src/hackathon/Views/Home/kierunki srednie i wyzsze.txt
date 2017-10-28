@@ -1,0 +1,165 @@
+Rolnik:
+	
+	IILO
+		biologiczno-chemiczna
+		ratownicza (biologiczno-chemiczna)
+		humanistyczna
+		matematyczno-informatyczna
+		matematyczno-fizyczna
+		językowo-geogaficzna (inaczej prawno-administracyjna)
+		
+	Technikum nr 2
+		technik informatyk
+		technik rolnik
+		technik technologii żywności
+		technik weterynarii
+		technik żywienia i usług gastronomicznych
+		kelner
+		
+	Szkoła Branżowa I Stopnia
+		ogrodnik
+		wędliniarz
+	
+Diecezjalne
+
+	LO
+		humanistyczna
+		
+Mechanik
+	
+	Technikum nr 1
+		technik elektryk
+		technik urządzeń i systemów energetyki odnawialnej
+		technik organizacji reklamy
+		technik grafiki i poligrafii cyfrowej
+		technik mechatronik
+		technik mechanik
+		technik pojazdów samochodowych
+		technik chłodnictwa i klimatyzacji
+		technik technologii drewna
+		
+	Szkoła Branżowa I Stopnia
+		mechanik pojazdów samochodowych
+		mechanik motocyklowy
+		kierowca-mechanik
+		elektryk
+		elektromechanik pojazdów samochodowych
+		stolarz
+		operator obrabiarek skrawających
+		ślusarz
+		mechatronik
+		monter sieci i instalacji sanitarnych
+		
+	Szkoła Branżowa I Stopnia Specjalna
+		monter zabudowy i robót wykończeniowych w budownictwie
+		
+Mechanik
+	
+	Technikum nr 4
+		technik budownictwa
+		technik geodeta
+		technik robót wykończeniowych w budownictwie
+		technik architektury krajobrazu
+		technik usług fryzjerskich
+		
+	Szkoła Branżowa I Stopnia
+		kucharz
+		fryzjer
+		cukiernik
+		krawiec
+		sprzedawca
+		betoniarz - zbrojarz
+		cieśla
+		dekarz
+		monter zabudowy i robót wykończeniowych w budownictwie
+		monter izolacji budowlanych
+		elektryk
+		blacharz samochodowy
+		lakiernik
+		jubiler
+		stolarz
+		zegarmistrz
+		
+Ekonomik
+
+	Technikum nr 3
+		technik ekonomista
+		technik logistyk
+		technik hotelarstwa
+		technik administracji
+		technik rachunkowości
+		
+Carolinum
+	
+	ILO
+		biologiczno-chemiczna
+		matematyczno-informatyczna
+		językowa
+		humanistyczna
+		matematyczno-geograficzna
+		geogaficzno-językowa
+		
+		
+		
+PWSZ
+
+	Studia I Stopnia (licencjackie i inżynierskie)
+	
+		architektura
+			- specjalność architektura i urbanistyka
+			- specjalność konserwacja i ochrona zabytków
+			- specjalność architektura i urbanistyka w języku angielskim
+			- specjalność architektura światła
+			
+		bezpieczeństwo wewnętrzne
+			- specjalność penitencjarystyka (nowość) 
+			- specjalność bezpieczeństwo ekonomiczne 
+			- specjalność bezpieczeństwo systemów informatycznych
+			- specjalność kryminologia i kryminalistyka 
+			- specjalność zarządzanie systemami bezpieczeństwa
+		
+		dietetyka
+			- specjalność dietetyka administracyjna
+			- specjalność dietetyka kliniczna
+			- specjalność dietetyka sportowa
+			
+		filologia
+			- specjalność filologia angielska 
+			- specjalność filologia germańska 
+			- specjalność język biznesu: angielski
+			
+		finanse i rachunkowość
+			- specjalność finanse przedsiębiorstw
+			- specjalność rachunkowość i kontrola finansowa
+			
+		informatyka (inżynier)
+			- specjalność bezpieczeństwo sieci i systemów informatycznych
+			- specjalność gry komputerowe i multimedia 
+			- specjalność systemy internetowe
+			- specjalność systemy i sieci komputerowe
+			
+		jazz i muzyka estradowa
+			- specjalność realizacja dźwięku
+			- specjalność wokalistyka lub instrumentalistyka
+			- specjalność edukacja artystyczna w jazzie i muzyce estradowej
+			
+		kosmetologia
+			- specjalność chemia i technologia kosmetyków 
+			- specjalność kosmetologia specjalistyczna
+			
+		pielęgniarstwo (tylko studia stacjonarne)
+			
+		psychofizyczne kształtowanie człowieka
+			- specjalność trener osobisty
+			- specjalność rekreacja psychoruchowa
+			
+		ratownictwo medyczne
+			
+		zarządzanie i inżynieria produkcji (inżynier)
+			- specjalność automatyzacja produkcji i systemy mechatroniczne
+			- specjalność inżynieria jakości
+			- specjalność zarządzanie innowacjami i projektami 
+			- specjalność zarządzanie produkcją i usługami
+			
+	Studia II Stopnia (magisterskie)
+		
