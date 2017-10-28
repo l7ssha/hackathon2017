@@ -2,7 +2,13 @@
   min-height: 75rem;
   padding-top: 4.5rem;
 }
-a.nav-link
+.nav-link
 {
-    color: aqua;
+    color: white !important; 
+    
+    
+}
+.nav-link:hover {
+    color: skyblue !important; 
+    background-color: 
 }
