@@ -7,17 +7,30 @@
         <th scope="col">#</th>
         <th scope="col">Przedszkole</th>
         <th scope="col">Adres</th>
+        <th scope="col">Typ</th>
       </tr>
     </thead>
     <tbody>
         @foreach(var item in Model)
-        {
+         {
           <tr class="clickable-row" style="cursor:pointer;" data-href='/przedszkole/@item.Id'>
             <th scope="row">@item.Id</th>
             <td>@item.Name</td>
             <td>@item.Address</td>
+             <td>
+                 @{
+                     if (item.Prywatna == 1)
+                     {
+                        <span>Prywatna</span>
+                     }
+                     else
+                     {
+                         <span>Publiczna</span>
+                     }
+                }
+             </td>
           </tr>
-      }
+         }
     </tbody>
   </table>
 </div>
