@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using hackathon.Models;
+using hackathon.ViewModels;
 
 namespace hackathon.Controllers
 {
@@ -12,6 +13,18 @@ namespace hackathon.Controllers
             => _db = db;
 
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Search()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Search(SearchViewModel vm)
         {
             return View();
         }

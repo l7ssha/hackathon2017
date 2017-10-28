@@ -1,0 +1,33 @@
+Szkoła Podstawowa nr 1: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.2152338302044!2d17.326192715198555!3d50.47433669352538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c40ee11948ed%3A0x886c0cd84e644526!2sSzko%C5%82a+Podstawowa+nr+1+im.+Kawaler%C3%B3w+Orderu+U%C5%9Bmiechu!5e0!3m2!1spl!2spl!4v1509216409783" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Szkoła Podstawowa nr 3: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2770.0206039260183!2d17.346687319234785!3d50.4574893026907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c151a18c9fa7%3A0x1ac8debec84039d5!2sSzko%C5%82a+Podstawowa+nr+3!5e0!3m2!1spl!2spl!4v1509216466918" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Szkoła Podstawowa nr 5: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.3564638021035!2d17.330411715169824!3d50.47170727947827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c4066c24f92b%3A0xa0a5bc60a473e9f2!2sSzko%C5%82a+Podstawowa+nr+5+w+Nysie!5e0!3m2!1spl!2spl!4v1509216571548" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Szkoła Podstawowa nr 10: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.922551603759!2d17.33435721516929!3d50.461166879476885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c3fe76424743%3A0x2aa5ccdb9ef02def!2sSzko%C5%82a+Podstawowa+nr+10+z+Oddzia%C5%82ami+Integracyjnymi!5e0!3m2!1spl!2spl!4v1509216704289" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Zespół Szkół Sportowy: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1509.5455218738844!2d17.33716655323551!3d50.483131054118004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c41753d0a78d%3A0x3171af9ee8d1c234!2zWmVzcMOzxYIgU3prw7PFgiBTcG9ydG93eWNo!5e0!3m2!1spl!2spl!4v1509216765176" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Niepubliczna SP: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1067.4926334289687!2d17.321978091536913!3d50.47946684764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c4129f1ab989%3A0xd99c22173c2099c7!2sKo%C5%9Bciuszki+9%2C+48-300+Nysa!5e0!3m2!1spl!2spl!4v1509211423671" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+!!!!!Diec SP (Mieści się w Diec Lic Hum): <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1269.654467099518!2d17.330179358121207!3d50.47259219486959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c40f55b33567%3A0xed2a5c8dd7a7bf7e!2sDiecezjalne+Liceum+Humanistyczne!5e0!3m2!1spl!2spl!4v1509217770645" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Mechanik: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1482.8470796487964!2d17.338356723636473!3d50.47112135360421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e7dc21622283e3a!2sCentrum+Kszta%C5%82cenia+Zawodowego+i+Ustawicznego!5e0!3m2!1spl!2spl!4v1509218832675" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+ZST: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d897.7603946668347!2d17.32974567819028!3d50.47369218676808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c40f3d4cd90d%3A0x27f375ae69c5a3bb!2zWmVzcMOzxYIgU3prw7PFgiBUZWNobmljem55Y2g!5e0!3m2!1spl!2spl!4v1509218940185" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Ekonomik: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1269.4714624946737!2d17.318505834204387!3d50.47940624775634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c472a85e3b79%3A0x659eb4d10420b0c2!2sPlac+W%C5%82adys%C5%82awa+Sikorskiego+1%2C+Nysa!5e0!3m2!1spl!2spl!4v1509219543753" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Carolinum: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d599.2055966038376!2d17.336561101573672!3d50.47192393359237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c40423a8837d%3A0x844eec369cab9318!2sI+LO+Carolinum%2C+Gimnazjum+Nr+4!5e0!3m2!1spl!2spl!4v1509219645864" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Rolnik: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.9718017536547!2d17.32863661516924!3d50.46024977947674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff422e4b820af0f6!2zWmVzcMOzxYIgU3prw7PFgiBpIFBsYWPDs3dlayBPxZt3aWF0b3d5Y2g!5e0!3m2!1spl!2spl!4v1509219807349" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+ZSA: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1233.467191561827!2d17.33669520569971!3d50.47422821073957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c4045c835dfb%3A0x7ff487f4d5e0d0e0!2zWmVzcMOzxYIgU3prw7PFgiBpIFBsYWPDs3dlayBBcnR5c3R5Y3pueWNo!5e0!3m2!1spl!2spl!4v1509220073635" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Diec: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1269.654467099518!2d17.330179358121207!3d50.47259219486959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c40f55b33567%3A0xed2a5c8dd7a7bf7e!2sDiecezjalne+Liceum+Humanistyczne!5e0!3m2!1spl!2spl!4v1509217770645" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Pascal: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d616.717832036901!2d17.33361283258669!3d50.475436533795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c40d8dcb1771%3A0x3484e20db8d35479!2sSzko%C5%82a+PASCAL!5e0!3m2!1spl!2spl!4v1509220372392" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Vademecum: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2015.1987635795242!2d17.325532239577075!3d50.478504574125594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c40d8dcb1709%3A0xb6c14044458867f4!2sEuropejskie+Centrum+Edukacyjno-Szkoleniowe+%E2%80%9EVademecum%E2%80%9D!5e0!3m2!1spl!2spl!4v1509220443118" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+PWSZ: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1067.60541354457!2d17.33770593136137!3d50.474473090176275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c404f6c2f40d%3A0xbe09568388569cbf!2sPa%C5%84stwowa+Wy%C5%BCsza+Szko%C5%82a+Zawodowa!5e0!3m2!1spl!2spl!4v1509220601764" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>

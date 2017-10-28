@@ -1,0 +1,33 @@
+@model SearchViewModel
+
+<div class="container">
+    <form method="post" asp-controller="Home" asp-action="Search">
+        <div class="row">
+            <div class="form-group col-12">
+                <label asp-for="Rodzaj"></label> <span class="text-danger" asp-validation-for="Rodzaj"></span>
+                <select asp-for="Rodzaj" class="form-control">
+                        <option value="Przedszkole">Przedszkole</option>
+                        <option value="Podstawowa">Podstawowa</option>
+                        <option value="Srednia">Srednia</option>
+                </select>
+            </div>
+
+            <div class="form-group col-12">
+                <label asp-for="Typ"></label> <span class="text-danger" asp-validation-for="Typ"></span>
+                <select asp-for="Typ" class="form-control">
+                        <option value="Prywatna">Prywatna</option>
+                        <option value="Publiczna">Publiczna</option>
+                </select>
+            </div>
+
+            <div class="form-group col-12">
+                <label asp-for="Kierunek"> </label><span class="text-danger" asp-validation-for="Kierunek"></span>
+                <select asp-for="Kierunek" class="form-control">
+                        <option value="Prywatna">Prywatna</option>
+                        <option value="Publiczna">Publiczna</option>
+                </select>
+            </div>
+            <div class="form-group col-12 align-self-end"><button class="btn btn-primary" type="submit" >Wyszukaj</button></div>
+        </div>
+    </form>
+</div>
