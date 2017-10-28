@@ -11,3 +11,12 @@
     color: skyblue !important; 
     background-color: 
 }
+
+.navbar-brand
+{
+    color: white !important; 
+}
+.navbar-brand:hover {
+    color: skyblue !important; 
+    background-color: 
+}
