@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -55,43 +51,42 @@ namespace hackathon
                 routes.MapRoute(
                     name: "about",
                     template: "onas",
-                    defaults: new { controller = "Home", action = "About" });
+                    defaults: new { controller = "Schools", action = "About" });
 
                 routes.MapRoute(
                     name: "przedszkole",
                     template: "przedszkole/{i}",
-                    defaults: new { controller = "Home", action = "Przedszkole" });
+                    defaults: new { controller = "Schools", action = "Przedszkole" });
 
                 routes.MapRoute(
                     name: "podstawowa",
                     template: "podstawowa/{i}",
-                    defaults: new { controller = "Home", action = "SzkolaPodstawowa" });
+                    defaults: new { controller = "Schools", action = "SzkolaPodstawowa" });
 
                 routes.MapRoute(
                     name: "srednia",
                     template: "srednia/{i}",
-                    defaults: new { controller = "Home", action = "SzkolaSrednia" });
+                    defaults: new { controller = "Schools", action = "SzkolaSrednia" });
 
                 routes.MapRoute(
                     name: "podstawowe",
                     template: "podstawowe",
-                    defaults: new { controller = "Home", action = "SzkolyPodstawowe" });
+                    defaults: new { controller = "Schools", action = "SzkolyPodstawowe" });
 
                 routes.MapRoute(
                     name: "przedszkola",
                     template: "przedszkola",
-                    defaults: new { controller = "Home", action = "Przedszkola" });
+                    defaults: new { controller = "Schools", action = "Przedszkola" });
 
                 routes.MapRoute(
                     name: "srednie",
                     template: "srednie",
-                    defaults: new { controller = "Home", action = "SzkolySrednie" });
+                    defaults: new { controller = "Schools", action = "SzkolySrednie" });
 
                 routes.MapRoute(
                     name: "wyzsza",
                     template: "wyzsza",
-                    defaults: new { controller = "Home", action = "SzkolyWyzsze" });
-
+                    defaults: new { controller = "Schools", action = "SzkolyWyzsze" });
             });
         }
     }
