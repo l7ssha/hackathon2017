@@ -1,12 +1,9 @@
 ﻿body {
   min-height: 75rem;
-  overflow-y: hidden;
 }
 .nav-link
 {
     color: white !important; 
-    
-    
 }
 .nav-link:hover {
     color: skyblue !important; 
