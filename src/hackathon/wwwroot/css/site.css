@@ -1,6 +1,6 @@
 ﻿body {
   min-height: 75rem;
-  overflow-y: hidden;
+  
 }
 .nav-link
 {
@@ -13,6 +13,3 @@
     background-color: 
 }
 
-.container
-{
-}
