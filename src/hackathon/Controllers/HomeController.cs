@@ -26,19 +26,19 @@ namespace hackathon.Controllers
         [HttpPost]
         public IActionResult Search(SearchViewModel vm)
         {
-            //dynamic result = null;
+            System.Console.WriteLine(vm.Typ + " " + vm.Rodzaj);
 
             if(vm.Rodzaj == "Przedszkole")
             {
                 if(vm.Typ == "Publiczna" || vm.Rodzaj == "Prywatna")
                 {
-                    var result = _db.Przedszkola.Where(x=> x.Prywatna == int.Parse(vm.Typ)).ToList();
-                     return RedirectToAction("SearchResult", result);
+                    var result = _db.Przedszkola.Where(x => x.prywatna == int.Parse(vm.Typ)).ToList();
+                    return View(nameof(SearchResult), result);
                 }
                 else
                 {
                     var result = _db.Przedszkola.ToList();
-                    return RedirectToAction("SearchResult", result);
+                    return View(nameof(SearchResult), result);
                 }
             }
             else if(vm.Rodzaj == "Podstawowa")
@@ -46,12 +46,12 @@ namespace hackathon.Controllers
                 if(vm.Typ == "Publiczna" || vm.Rodzaj == "Prywatna")
                 {
                     var result = _db.SzkolyPodstawowe.Where(x=> x.prywatna == int.Parse(vm.Typ)).ToList();
-                     return RedirectToAction("SearchResult", result);
+                    return View(nameof(SearchResult), result);
                 }
                 else
                 {
                     var result = _db.Przedszkola.ToList();
-                     return RedirectToAction("SearchResult", result);
+                    return View(nameof(SearchResult), result);
                 }
             }
             else if(vm.Rodzaj == "Srednia")
@@ -59,15 +59,15 @@ namespace hackathon.Controllers
                 if(vm.Typ == "Publiczna" || vm.Rodzaj == "Prywatna")
                 {
                     var result = _db.SzkolyPodstawowe.Where(x=> x.prywatna == int.Parse(vm.Typ)).ToList();
-                     return RedirectToAction("SearchResult", result);
+                    return View(nameof(SearchResult), result);
                 }
                 else
                 {
                     var result = _db.Przedszkola.ToList();
-                     return RedirectToAction("SearchResult", result);
+                    return View(nameof(SearchResult), result);
                 }
             }
-            else return RedirectToAction("Search");
+            else return RedirectToPage("Search");
         }
 
         public IActionResult SearchResult(IModel result)

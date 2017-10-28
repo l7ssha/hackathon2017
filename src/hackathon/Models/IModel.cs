@@ -9,5 +9,7 @@ namespace hackathon.Models
         string Telephone { get; set; }
         string Email { get; set; }
         string Webpage { get; set; }
+        int prywatna { get; set; }
+        
     }
 }
