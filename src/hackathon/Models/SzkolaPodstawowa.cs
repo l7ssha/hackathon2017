@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace hackathon.Models 
 {
-    public class SzkolaPodstawowa
+    public class SzkolaPodstawowa : IModel
     {
         [Key]
         public int Id { get; set; }
@@ -15,5 +15,7 @@ namespace hackathon.Models
         public string maps { get; set; }
         public string img { get; set; }
         public string desc { get; set; }
+        public int prywatna { get; set; }
+        
     }
 }
