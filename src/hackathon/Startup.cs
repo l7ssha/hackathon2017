@@ -9,7 +9,7 @@ namespace hackathon
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration) 
+        public Startup(IConfiguration configuration)
             => Configuration = configuration;
 
         public IConfiguration Configuration { get; }
@@ -18,7 +18,7 @@ namespace hackathon
         {
             services.AddDbContext<SzkolyNysaContext>(options =>
                     options.UseSqlite("Data Source=Szkoly.db"));
-                    
+
             services.AddMvc();
         }
 
@@ -40,7 +40,7 @@ namespace hackathon
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
-                
+
                 routes.MapRoute(
                     name: "ranking",
                     template: "ranking",
