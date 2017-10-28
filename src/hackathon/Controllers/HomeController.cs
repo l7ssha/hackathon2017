@@ -37,7 +37,7 @@ namespace hackathon.Controllers
 
         public IActionResult SzkolySrednie()
         {
-            var data = _db.SzkolySrednie.Where(x=> x.Id > 10).ToList();
+            var data = _db.SzkolySrednie.Where(x=> x.Id < 10).ToList();
             return View(data);
         }
 
