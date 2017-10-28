@@ -8,10 +8,8 @@ namespace hackathon.Controllers
     {
         private readonly SzkolyNysaContext _db;
 
-        public HomeController(SzkolyNysaContext db)
-        {
-            _db = db;
-        }
+        public HomeController(SzkolyNysaContext db) 
+            => _db = db;
 
         public IActionResult Index()
         {
