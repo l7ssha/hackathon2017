@@ -14,6 +14,6 @@ namespace hackathon.Models
         public string Webpage { get; set; }
         public int Places { get; set; }
         public string WorkingHours { get; set; }
-        public int Prywatna { get; set; }   
+        public int? Prywatna { get; set; }
     }
 }

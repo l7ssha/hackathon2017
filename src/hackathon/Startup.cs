@@ -56,6 +56,11 @@ namespace hackathon
                     name: "about",
                     template: "onas",
                     defaults: new { controller = "Home", action = "About" });
+
+                routes.MapRoute(
+                    name: "przedszkola",
+                    template: "przedszkola",
+                    defaults: new { controller = "Home", action = "Przedszkola" });
             });
         }
     }

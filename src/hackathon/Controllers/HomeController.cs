@@ -23,16 +23,15 @@ namespace hackathon.Controllers
             return View();
         }
 
+         public IActionResult Ranking(){
+            return View();
+        }
+
         public IActionResult Przedszkola()
         {
             var data = _db.Przedszkola.ToList();
 
             return View(data);
-        }
-
-        public IActionResult Ranking()
-        {
-            return View();
         }
 
         public IActionResult Przedszkole(int i)
