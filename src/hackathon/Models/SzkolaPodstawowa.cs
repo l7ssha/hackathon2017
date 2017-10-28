@@ -11,6 +11,9 @@ namespace hackathon.Models
         public string MailPost { get; set; }
         public string Telephone { get; set; }
         public string Email { get; set; }
-        public string Webpage { get; set; } 
+        public string Webpage { get; set; }
+        public string maps { get; set; }
+        public string img { get; set; }
+        public string desc { get; set; }
     }
 }
