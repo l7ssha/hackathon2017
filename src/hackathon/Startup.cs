@@ -48,6 +48,11 @@ namespace hackathon
                     template: "{controller=Home}/{action=Index}/{id?}");
                 
                 routes.MapRoute(
+                    name: "ranking",
+                    template: "ranking",
+                    defaults: new { controller = "Home", action = "Ranking" });
+
+                routes.MapRoute(
                     name: "about",
                     template: "onas",
                     defaults: new { controller = "Home", action = "About" });

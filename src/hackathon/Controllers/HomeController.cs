@@ -27,7 +27,12 @@ namespace hackathon.Controllers
         {
             var data = _db.Przedszkola.ToList();
 
-            return View(dane);
+            return View(data);
+        }
+
+        public IActionResult Ranking()
+        {
+            return View();
         }
 
         public IActionResult Przedszkole(int i)
@@ -46,9 +51,8 @@ namespace hackathon.Controllers
         {
             var data = _db.SzkolyPodstawowe.ToList();
             return View(data);
-        }
+    }
 
-        [HttpGet]
         public IActionResult About()
         {
             return View();
