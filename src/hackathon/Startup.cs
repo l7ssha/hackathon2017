@@ -58,6 +58,11 @@ namespace hackathon
                     defaults: new { controller = "Home", action = "About" });
 
                 routes.MapRoute(
+                    name: "przedszkole",
+                    template: "przedszkole/{i}",
+                    defaults: new { controller = "Home", action = "Przedszkole" });
+
+                routes.MapRoute(
                     name: "przedszkola",
                     template: "przedszkola",
                     defaults: new { controller = "Home", action = "Przedszkola" });
