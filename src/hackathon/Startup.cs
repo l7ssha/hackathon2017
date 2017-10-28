@@ -87,6 +87,11 @@ namespace hackathon
                     template: "srednie",
                     defaults: new { controller = "Home", action = "SzkolySrednie" });
 
+                routes.MapRoute(
+                    name: "wyzsza",
+                    template: "wyzsza",
+                    defaults: new { controller = "Home", action = "SzkolyWyzsze" });
+
             });
         }
     }
