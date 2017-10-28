@@ -1,1 +1,31 @@
 @model SzkolaSrednia
+
+<div class="container" style="margin-top: 10px;">
+    <div class="row justify-content-md-center">
+        <div class="col-md-12 text-center" style="padding: 10px"><h1>@Model.Name</h1></div>
+        <div class="col-md-6" style="padding: 10px">
+            <img src="@Model.img" class="img img-fluid rounded" />
+        </div>
+        <div class="col-md-6" style="padding: 10px">
+            @Model.desc
+        </div>
+        <div class="col-md-4 text-center" style="padding: 10px;">
+            <p>Adres: <strong> @Model.Address </strong> <br />
+            Telefon: <strong>@Model.Telephone</strong>
+            </p>
+            <p>Email: <strong>@Model.Email</strong> <br />
+            Strona www: <strong> <a href="@Model.Webpage">@Model.Webpage</a> </strong></p>
+        </div>
+        <div class="col-md-4 text-center" style="padding: 10px;">
+            <p>
+                Godziny Otwarcia: <strong>@Model.WorkingHours</strong>
+            </p>
+            <p>
+                Ilość miejsc: <strong>@Model.Places</strong>
+            </p>
+        </div>
+        <div class="col-md-12 lokalizacja text-center" style="padding: 10px;">
+            <iframe class="rounded" style="width:80%; height: auto;" src="@Model.maps" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>

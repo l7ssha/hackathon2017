@@ -17,5 +17,6 @@ namespace hackathon.Models
         public int? Prywatna { get; set; }
         public string maps { get; set; }
         public string desc { get; set; }
+        public string img { get; set; }
     }
 }
