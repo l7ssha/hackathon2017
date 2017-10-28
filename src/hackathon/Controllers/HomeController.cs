@@ -23,7 +23,8 @@ namespace hackathon.Controllers
             return View();
         }
 
-         public IActionResult Ranking(){
+        public IActionResult Ranking()
+        {
             return View();
         }
 

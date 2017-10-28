@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>@ViewData["Title"] - hackathon</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link href="~/css/site.css" rel="stylesheet">
 </head>
@@ -15,26 +17,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" asp-controller="Home" asp-action="Przedszkola">Przedszkola</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" asp-controller="Home" asp-action="SzkolyPodstawowe" >Szkoły podstawowe</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" asp-controller="Home" asp-action="SzkolySrednie" >Szkoły średnie</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" asp-controller="Home" asp-action="SzkolyWyzsze">Szkoły wyższe</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" asp-controller="Home" asp-action="Ranking" >Ranking</a>
-          </li>
+          <li class="nav-item"> <a class="nav-link" asp-controller="Home" asp-action="Przedszkola">Przedszkola</a> </li>
+          <li class="nav-item"> <a class="nav-link" asp-controller="Home" asp-action="SzkolyPodstawowe">Szkoły podstawowe</a> </li>
+          <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="SzkolySrednie">Szkoły średnie</a></li>
+          <li class="nav-item"> <a class="nav-link" asp-controller="Home" asp-action="SzkolyWyzsze">Szkoły wyższe</a> </li>
+          <li class="nav-item"> <a class="nav-link" asp-controller="Home" asp-action="Ranking">Ranking</a></li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
     
