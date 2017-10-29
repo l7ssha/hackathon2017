@@ -27,6 +27,8 @@ namespace hackathon.Controllers
 
             var kierunki = _db.SzkolySrednie.Select(x=> x.kierunki);
 
+            //model.Items.AddRange()
+
             return View();
         }
 
