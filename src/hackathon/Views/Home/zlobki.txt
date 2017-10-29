@@ -1,0 +1,13 @@
+żłobek miejski nr 1: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20317.010176733645!2d17.325571857411195!3d50.46668372254267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4985e481dedee52b!2zxbvFgm9iZWsgbnIgMQ!5e0!3m2!1spl!2spl!4v1509243621184" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+żłobek miejski nr 2: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20314.63939914235!2d17.327545963246152!3d50.47220138744237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2898233797b13c6d!2s%C5%BB%C5%82obek+Miejski+Nr+2+w+Nysie!5e0!3m2!1spl!2spl!4v1509243664584" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+świat malucha: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.2187466318605!2d17.326135215198466!3d50.474271293530116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c40ee7211a33%3A0xc2788659a15fd4c6!2s%C5%9Awiat+Malucha!5e0!3m2!1spl!2spl!4v1509243711392" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+minilandia: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1510.3026865762643!2d17.314534811590587!3d50.45942245566155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f8bf045d058b502!2sKlub+malucha+Minilandia+w+Nysie!5e0!3m2!1spl!2spl!4v1509243790262" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+kids: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.670242210644!2d17.34402721519889!3d50.48448239279393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c418c93d3a27%3A0x2d1b6f59630558a3!2sKLUB+MALUCHA+KIDS+w+Nysie!5e0!3m2!1spl!2spl!4v1509243853271" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+bajkowy świat: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.9231064772853!2d17.32410741519874!3d50.47977519313338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c4121557321d%3A0x697a42c8045b0b1c!2sBajkowy+%C5%9Awiat!5e0!3m2!1spl!2spl!4v1509243919982" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+minilandia: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4271.45591482654!2d17.345382154908407!3d50.46302280391696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c154ecbeff15%3A0x1346d9a5523dbe1!2s%C5%BB%C5%82obek+MINILANDIA+w+Nysie!5e0!3m2!1spl!2spl!4v1509244025805" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
