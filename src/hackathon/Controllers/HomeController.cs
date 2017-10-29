@@ -22,21 +22,19 @@ namespace hackathon.Controllers
         [HttpGet]
         public IActionResult Search()
         {
-            var model = new SearchViewModel();
-            model.Items = new List<SelectListItem>();
-
             var kierunki = _db.SzkolySrednie.ToList();
+            List<string> data = new List<string>();
 
-            foreach(var it in kierunki)
-            {
-
-                model.Items.Add(new SelectListItem() {Value = it.kierunki, Text = it.kierunki});
-                //foreach(var s in it.kierunki){
-                    //model.Items.Add(new SelectListItem() {Value = s, Text = s});
-                //}
+            foreach(var it in kierunki){
+                if(it.kierunki != null) {
+                    foreach(var i in it.kierunki.Split(';')){
+                        data.Add(i);
+                    }
+                }
             }
-           
-            return View(model);
+
+            ViewData["Options"] = data;
+            return View();
         }
 
         [HttpPost]
