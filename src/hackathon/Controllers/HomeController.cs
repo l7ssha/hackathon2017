@@ -35,7 +35,7 @@ namespace hackathon.Controllers
                 }
             }
 
-            ViewData["Options"] = data;
+            ViewData["Options"] = data.Distinct().OrderBy(x=> x).ToList();
             return View();
         }
 

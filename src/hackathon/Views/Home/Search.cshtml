@@ -22,7 +22,7 @@
                 </select>
             </div>
 
-            <div class="form-group col-12" id="kier">
+            <div class="form-group col-12" id="kier" style="display: none;">
                 <label asp-for="Kierunek"> </label><span class="text-danger" asp-validation-for="Kierunek"></span>
                 <select asp-for="Kierunek" class="form-control">
                     <option value="Dowolny">Dowolny</option>
@@ -49,11 +49,11 @@
 
             if(obj.value != "Srednia")
             {
-               document.getElementById("kier").style.visibility = "hidden";
+               document.getElementById("kier").style.display = "none";
             }
             else
             {
-                document.getElementById("kier").style.visibility = "visible";
+                document.getElementById("kier").style.display = "block";
             }
         }
     </script>
