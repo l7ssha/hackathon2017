@@ -40,6 +40,18 @@ namespace hackathon.Controllers
             return View(przedsz);
         }
 
+        public IActionResult Zlobki()
+        {
+            var data = _db.Zlobki.ToList();
+            return View(data);
+        }
+
+        public IActionResult Zlobek(int i)
+        {
+            var data = _db.Zlobki.Single(x=> x.Id == i);
+            return View(data);
+        }
+
         public IActionResult SzkolaSrednia(int i)
         {
             var przedsz = _db.SzkolySrednie.Single(x => x.Id == i);

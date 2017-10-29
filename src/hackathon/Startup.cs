@@ -90,6 +90,16 @@ namespace hackathon
                     name: "search",
                     template: "search",
                     defaults: new { controller = "Home", action = "Search" });
+
+                routes.MapRoute(
+                    name: "zlobki",
+                    template: "zlobki",
+                    defaults: new { controller = "Home", action = "Zlobki" });
+                
+                routes.MapRoute(
+                    name: "zlobek",
+                    template: "zlobek",
+                    defaults: new { controller = "Home", action = "Zlobek" });
             });
         }
     }
