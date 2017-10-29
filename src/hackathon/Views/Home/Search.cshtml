@@ -5,7 +5,7 @@
         <div class="row">
             <div class="form-group col-12">
                 <label asp-for="Rodzaj"></label> <span class="text-danger" asp-validation-for="Rodzaj"></span>
-                <select asp-for="Rodzaj" class="form-control">
+                <select id="trigger" asp-for="Rodzaj" class="form-control" onchange="valueChanged()">
                         <option value="Przedszkole">Przedszkole</option>
                         <option value="Podstawowa">Podstawowa</option>
                         <option value="Srednia">Srednia</option>
@@ -21,7 +21,7 @@
                 </select>
             </div>
 
-            <div class="form-group col-12">
+            <div class="form-group col-12" id="kier">
                 <label asp-for="Kierunek"> </label><span class="text-danger" asp-validation-for="Kierunek"></span>
                 <select asp-for="Kierunek" class="form-control">
                     @foreach(var item in @ViewData["Options"] as List<string>){
@@ -33,3 +33,26 @@
         </div>
     </form>
 </div>
+
+@section Scripts 
+{
+    <script>
+        window.onload = function() {
+            valueChanged();
+        };
+
+        function valueChanged()
+        {
+            var obj = document.getElementById("trigger");
+
+            if(obj.value != "Srednia")
+            {
+               document.getElementById("kier").style.visibility = "hidden";
+            }
+            else
+            {
+                document.getElementById("kier").style.visibility = "visible";
+            }
+        }
+    </script>
+}
