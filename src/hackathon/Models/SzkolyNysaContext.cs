@@ -14,6 +14,7 @@ namespace hackathon.Models
         public DbSet<Przedszkole> Przedszkola { get; set; }
         public DbSet<SzkolaPodstawowa> SzkolyPodstawowe { get; set; }
         public DbSet<SzkolaSrednia> SzkolySrednie { get; set; }
+        public DbSet<Przedszkole> Zlobki { get; set; }
     }
 
 }
