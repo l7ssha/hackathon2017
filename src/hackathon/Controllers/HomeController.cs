@@ -25,11 +25,18 @@ namespace hackathon.Controllers
             var model = new SearchViewModel();
             model.Items = new List<SelectListItem>();
 
-            var kierunki = _db.SzkolySrednie.Select(x=> x.kierunki);
+            var kierunki = _db.SzkolySrednie.ToList();
 
-            //model.Items.AddRange()
+            foreach(var it in kierunki)
+            {
 
-            return View();
+                model.Items.Add(new SelectListItem() {Value = it.kierunki, Text = it.kierunki});
+                //foreach(var s in it.kierunki){
+                    //model.Items.Add(new SelectListItem() {Value = s, Text = s});
+                //}
+            }
+           
+            return View(model);
         }
 
         [HttpPost]
