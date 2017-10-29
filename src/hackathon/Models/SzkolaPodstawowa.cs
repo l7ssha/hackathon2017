@@ -16,6 +16,6 @@ namespace hackathon.Models
         public string img { get; set; }
         public string desc { get; set; }
         public int prywatna { get; set; }
-        
+        public string typ { get => "podstawowa"; }
     }
 }

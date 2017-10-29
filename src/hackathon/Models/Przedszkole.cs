@@ -18,5 +18,6 @@ namespace hackathon.Models
         public string maps { get; set; }
         public string desc { get; set; }
         public string img { get; set; }
+        public string typ { get => "przedszkole"; }
     }
 }
