@@ -16,14 +16,17 @@
             <p>Email: <strong>@Model.Email</strong> <br />
             Strona www: <strong> <a target="_blank" href="http://@Model.Webpage">@Model.Webpage</a> </strong></p>
         </div>
+        @if(@Model.kierunki != null){
         <div class="col-md-12 text-center" style="padding: 10px;">
             <p><strong>Kierunki: </strong></p>
-            <p>@foreach(var kier in @Model.kierunki.Split(';'))
+            <p>
+                @foreach(var kier in @Model.kierunki.Split(';'))
                 {
                     <span>@kier</span> <br>
                 }
             </p>
         </div>
+        }
         <div class="col-md-12 lokalizacja text-center" style="padding: 10px;">
             <iframe class="rounded" style="width:80%; height: auto;" src="@Model.maps" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
