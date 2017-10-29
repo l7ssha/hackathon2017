@@ -42,7 +42,7 @@ namespace hackathon.Controllers
         [HttpPost]
         public IActionResult Search(SearchViewModel vm)
         {
-            System.Console.WriteLine(vm.Typ + " " + vm.Rodzaj);
+            //System.Console.WriteLine(vm.Typ + " " + vm.Rodzaj);
 
             if(vm.Rodzaj == "Przedszkole")
             {
@@ -70,17 +70,45 @@ namespace hackathon.Controllers
                     return View(nameof(SearchResult), result);
                 }
             }
-            else if(vm.Rodzaj == "Srednia")
+            else if(vm.Rodzaj == "Zlobek")
             {
                 if(int.Parse(vm.Typ) != 3)
                 {
-                    var result = _db.SzkolySrednie.Where(x=> x.prywatna == int.Parse(vm.Typ) && x.kierunki.Contains(vm.Kierunek)).ToList().Cast<IModel>();
+                    var result = _db.Zlobki.Where(x=> x.prywatna == int.Parse(vm.Typ)).ToList();
                     return View(nameof(SearchResult), result);
                 }
                 else
                 {
-                    var result = _db.SzkolySrednie.Where(x => x.kierunki.Contains(vm.Kierunek)).ToList().Cast<IModel>();
+                    var result = _db.Zlobki.ToList();
                     return View(nameof(SearchResult), result);
+                }
+            }
+            else if(vm.Rodzaj == "Srednia")
+            {
+                if(vm.Kierunek != "Dowolny") {
+                    if(int.Parse(vm.Typ) != 3)
+                    {
+                        var result = _db.SzkolySrednie.Where(x=> x.prywatna == int.Parse(vm.Typ) && x.kierunki.Contains(vm.Kierunek)).ToList().Cast<IModel>();
+                        return View(nameof(SearchResult), result);
+                    }
+                    else
+                    {
+                        var result = _db.SzkolySrednie.Where(x => x.kierunki.Contains(vm.Kierunek)).ToList().Cast<IModel>();
+                        return View(nameof(SearchResult), result);
+                    }
+                }
+                else
+                {
+                    if(int.Parse(vm.Typ) != 3)
+                    {
+                        var result = _db.SzkolySrednie.Where(x=> x.prywatna == int.Parse(vm.Typ)).ToList().Cast<IModel>();
+                        return View(nameof(SearchResult), result);
+                    }
+                    else
+                    {
+                        var result = _db.SzkolySrednie.ToList().Cast<IModel>();
+                        return View(nameof(SearchResult), result);
+                    }
                 }
             }
             else return RedirectToPage("Search");

@@ -98,7 +98,7 @@ namespace hackathon
                 
                 routes.MapRoute(
                     name: "zlobek",
-                    template: "zlobek",
+                    template: "zlobek/{i}",
                     defaults: new { controller = "Home", action = "Zlobek" });
             });
         }
