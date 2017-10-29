@@ -21,3 +21,30 @@
     color: skyblue !important; 
     background-color: 
 }
+.centerbutton {
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: center;
+    position:absolute;
+    z-index:50;
+    top:50%;
+    left:50%;
+    margin-top:-23px;
+    margin-left:-50px;
+}
+.centerbutton {
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: center;
+}
+
+.slider{
+    position:relative;
+}
+div.centerbutton{
+    position: absolute;
+    left: 50%;
+    top: 33%;
+    z-index: 55;
+    transform: translate(-50%,0%);
+}
