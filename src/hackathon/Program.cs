@@ -20,6 +20,7 @@ namespace hackathon
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                //.UseUrls("http://172.30.254.51:5001")
                 .Build();
     }
 }
