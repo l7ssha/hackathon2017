@@ -26,9 +26,11 @@ namespace hackathon.Controllers
             List<string> data = new List<string>();
 
             foreach(var it in kierunki){
-                if(it.kierunki != null) {
+                if(it.kierunki != null && it.kierunki != "" && it.kierunki != " ") {
                     foreach(var i in it.kierunki.Split(';')){
-                        data.Add(i);
+                        if(i != null && i != "" && i != " "){
+                            data.Add(i);
+                        }
                     }
                 }
             }
@@ -72,19 +74,19 @@ namespace hackathon.Controllers
             {
                 if(int.Parse(vm.Typ) != 3)
                 {
-                    var result = _db.SzkolySrednie.Where(x=> x.prywatna == int.Parse(vm.Typ)).ToList();
+                    var result = _db.SzkolySrednie.Where(x=> x.prywatna == int.Parse(vm.Typ) && x.kierunki.Contains(vm.Kierunek)).ToList().Cast<IModel>();
                     return View(nameof(SearchResult), result);
                 }
                 else
                 {
-                    var result = _db.SzkolySrednie.ToList();
+                    var result = _db.SzkolySrednie.Where(x => x.kierunki.Contains(vm.Kierunek)).ToList().Cast<IModel>();
                     return View(nameof(SearchResult), result);
                 }
             }
             else return RedirectToPage("Search");
         }
 
-        public IActionResult SearchResult(IModel result)
+        public IActionResult SearchResult(IEnumerable<IModel> result)
         {
             return View(result);
         }

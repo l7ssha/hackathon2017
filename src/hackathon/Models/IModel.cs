@@ -10,6 +10,7 @@ namespace hackathon.Models
         string Email { get; set; }
         string Webpage { get; set; }
         int prywatna { get; set; }
+        string typ { get; }
         
     }
 }

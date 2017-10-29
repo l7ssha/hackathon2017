@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace hackathon.Models
 {
-    public class SzkolaSrednia
+    public class SzkolaSrednia : IModel
     {
         [Key]
         public int Id { get; set; }
@@ -17,6 +17,6 @@ namespace hackathon.Models
         public string desc { get; set; }
         public int prywatna { get; set; }
         public string kierunki { get; set; }
-        
+        public string typ { get => "srednia"; }
     }
 }
