@@ -37,6 +37,10 @@ namespace hackathon.Controllers
         public IActionResult Przedszkole(int i)
         {
             var przedsz = _db.Przedszkola.Single(x => x.Id == i);
+
+            if(przedsz.img == null)
+                przedsz.img = "/img/brak.png";
+
             return View(przedsz);
         }
 
@@ -49,18 +53,30 @@ namespace hackathon.Controllers
         public IActionResult Zlobek(int i)
         {
             var data = _db.Zlobki.Single(x=> x.Id == i);
+
+            if(data.img == null)
+                data.img = "/img/brak.png";
+
             return View(data);
         }
 
         public IActionResult SzkolaSrednia(int i)
         {
             var przedsz = _db.SzkolySrednie.Single(x => x.Id == i);
+
+            if(przedsz.img == null)
+                przedsz.img = "/img/brak.png";
+                
             return View(przedsz);
         }
 
         public IActionResult SzkolaPodstawowa(int i)
         {
             var przedsz = _db.SzkolyPodstawowe.Single(x => x.Id == i);
+
+            if(przedsz.img == null)
+                przedsz.img = "/img/brak.png";
+
             return View(przedsz);
         }
 
