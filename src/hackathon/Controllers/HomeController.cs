@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using hackathon.Models;
 using hackathon.ViewModels;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Collections.Generic;
 
 namespace hackathon.Controllers
 {
@@ -20,6 +22,11 @@ namespace hackathon.Controllers
         [HttpGet]
         public IActionResult Search()
         {
+            var model = new SearchViewModel();
+            model.Items = new List<SelectListItem>();
+
+            var kierunki = _db.SzkolySrednie.Select(x=> x.kierunki);
+
             return View();
         }
 

@@ -23,10 +23,7 @@
 
             <div class="form-group col-12">
                 <label asp-for="Kierunek"> </label><span class="text-danger" asp-validation-for="Kierunek"></span>
-                <select asp-for="Kierunek" class="form-control">
-                        <option value="Prywatna">Prywatna</option>
-                        <option value="Publiczna">Publiczna</option>
-                </select>
+                <select asp-for="Kierunek" class="form-control" asp-items="Model.Items" />
             </div>
             <div class="form-group col-12 align-self-end"><button class="btn btn-primary" type="submit" >Wyszukaj</button></div>
         </div>
